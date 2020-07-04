@@ -6,7 +6,7 @@ import "./App.css";
 
 export default function App() {
   return (
-    <BrowserRouter basename='page-nasa-api'>
+    <BrowserRouter basename='/page-nasa-api'>
       <div className="app">
           <Route component={Home} path="/" exact />
           <Route component={NasaPhoto} path="/nasaphoto" />
