@@ -5,8 +5,7 @@ export default function Home() {
 
   return (
     <div className="home">
-      <Link className="home-link" to="/nasaphoto" >Start the journey
-!</Link>
+      <Link className="home-link" to="/nasaphoto" >Start the journey !</Link>
     </div>
   );
 }
